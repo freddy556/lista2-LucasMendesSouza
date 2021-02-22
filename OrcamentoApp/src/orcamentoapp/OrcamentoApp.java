@@ -42,7 +42,7 @@ public class OrcamentoApp {
         p1.calculaRenda();
         BigDecimal _renda1 = new BigDecimal("31980.56");
         BigDecimal _gastos1 = new BigDecimal("23999.95");
-        BigDecimal _rendaMes1 = _renda.subtract(_gastos);
+        BigDecimal _rendaMes1 = _renda1.subtract(_gastos1);
         System.out.println(p1.getNome() + " - " + p1.getIdade()+ " anos");
         System.out.println("Consulta referente ao mês de "+m1.toString() + " - " + m1.getValor());
         System.out.println("Consulta realizada as " + horaAgora + " No dia " + dataHoje);
